@@ -1,0 +1,32 @@
+{
+  "name": "Interstellar Proxy",
+  "version": "1.0.0",
+  "description": "By Interstellar Network",
+  "type": "module",
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "start": "index.js"
+  },
+  "keywords": [
+    "proxy"
+  ],
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@titaniumnetwork-dev/ultraviolet": "^1.0.8-beta",
+    "@tomphttp/bare-server-node": "^1.2.5",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jquery": "^3.6.4",
+    "ultraviolet-static": "github:titaniumnetwork-dev/Ultraviolet-Static",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "prettier": "^2.8.3"
+  }
+}
