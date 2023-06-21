@@ -37,10 +37,3 @@ console.warn(
     document.head.append(gascript, inlinegascript);
     script("Injected script 1/2");
   }
-   
-  const arc = document.createElement("script");
-  arc.setAttribute("async", "");
-  arc.setAttribute("src", "https://arc.io/widget.min.js#gcM6sndx");
-  document.head.append(arc);
-  script("Injected script 2/2");
-  
